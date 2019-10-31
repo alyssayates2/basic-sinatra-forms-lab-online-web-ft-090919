@@ -11,6 +11,7 @@ class App < Sinatra::Base
     params.to_s
     binding.pry
     @name = params[:name]
+    @coach = params[:coach]
     erb :team
   end
 
