@@ -13,6 +13,7 @@ class App < Sinatra::Base
     @coach = params[:coach]
     @pg = params[:pg]
     @sg = params[:sg]
+    @sf = params[:sf]
     erb :team
   end
 
