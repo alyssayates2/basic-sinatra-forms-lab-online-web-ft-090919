@@ -11,6 +11,7 @@ class App < Sinatra::Base
     params.to_s
     @name = params[:name]
     @coach = params[:coach]
+    @pg = params[:pg]
     erb :team
   end
 
