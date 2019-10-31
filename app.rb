@@ -8,8 +8,8 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    params.to_s
     binding.pry
+    params.to_s
   end
 
 end
