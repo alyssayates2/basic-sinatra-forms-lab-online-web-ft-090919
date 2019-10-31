@@ -10,6 +10,7 @@ class App < Sinatra::Base
   post '/team' do
     params.to_s
     @name = params[:name]
+    erb :team
   end
 
 end
